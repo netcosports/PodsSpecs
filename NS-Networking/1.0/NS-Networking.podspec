@@ -11,6 +11,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
+  s.pod_target_xcconfig = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
+
   s.dependency 'NS-Categories', '~> 1.0'
   s.dependency 'AFNetworking', '~> 2.6.1'
 
