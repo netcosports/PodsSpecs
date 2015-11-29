@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.dependency 'NS-Categories', '~> 1.0'
   s.dependency 'AFNetworking', '~> 2.6.1'
 
-  s.source_files = 'NSHTTPRequester'
+  s.source_files = 'NSHTTPRequester', 'Categories'
 
   s.frameworks = 'Security'
 
