@@ -22,8 +22,4 @@ s.dependency 'NS-DetachableViews', '~> 1.0'
 
 s.module_name = 'NSPlayerView'
 
-s.prepare_command = <<-CMD
-                    sed -i '' -e 's/"NSDetachableManager.h"/<NSDetachableViews\\/NSDetachableManager.h>/g' Classes/Controller/*.h
-                    CMD
-
 end
