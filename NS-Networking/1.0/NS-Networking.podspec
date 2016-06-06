@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/netcosports/NS-Networking"
   s.license          = 'Private'
   s.author           = { "Netco Sports" => "ios@netcosports.com" }
-  s.source           = { :git => "https://github.com/netcosports/NS-Networking.git", :tag => s.version }
+  s.source           = { :git => "git@github.com:netcosports/NS-Networking.git", :tag => s.version }
   s.social_media_url = 'https://twitter.com/netcosports'
 
   s.platform     = :ios, '7.0'
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.dependency 'NS-Categories', '~> 1.0'
   s.dependency 'AFNetworking', '~> 2.6.1'
 
-  s.source_files = 'NSHTTPRequester'
+  s.source_files = 'NSHTTPRequester', 'Categories/**/*.{h,m}'
 
   s.frameworks = 'Security'
 
