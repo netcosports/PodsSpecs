@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/netcosports/NS-Services"
   s.license          = 'Private'
   s.author           = { "Netco Sports" => "ios@netcosports.com" }
-  s.source           = { :git => "https://github.com/netcosports/NS-Services.git", :tag => s.version }
+  s.source           = { :git => "git@github.com:netcosports/NS-Services.git", :tag => s.version }
   s.social_media_url = 'https://twitter.com/netcosports'
 
   s.platform     = :ios, '7.0'
