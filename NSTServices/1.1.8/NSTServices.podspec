@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "NSTServices"
-  s.version          = "1.1.7"
+  s.version          = "1.1.8"
   s.summary          = "NS-Services from Netco Sports"
   s.homepage         = "https://github.com/netcosports/NS-Services"
   s.license          = 'Private'
