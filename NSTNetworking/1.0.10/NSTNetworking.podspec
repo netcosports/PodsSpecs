@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "git@github.com:netcosports/NS-Networking.git", :tag => s.version }
   s.social_media_url = 'https://twitter.com/netcosports'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '13.0'
   s.requires_arc = true
 
   s.pod_target_xcconfig = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
